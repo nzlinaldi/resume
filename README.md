@@ -1,19 +1,19 @@
-# LaTeX resume
+# LaTeX Resume
 
-This repository cotains my resume/CV (Curriculum Vitae) developed in LaTeX,
+This repository contains my resume (Curriculum Vitae) developed in LaTeX.  
 The goal of this project is to create a clean, professional, and well-structured resume.
 
 ## Features
 
--- Clean, professional and aesthetic layout
--- Structure sections (experience, projects, education and skills)
--- Easy content update without messing in layout
--- PDF output ready for reading
+- Clean, professional, and aesthetic layout
+- Structured sections (experience, projects, education, and skills)
+- Easy content updates without breaking the layout
+- PDF output ready for applications
 
 ## Technologies
 
--- LaTeX
--- Overleaf website
+- LaTeX
+- Overleaf
 
 ## Author
 Enzo Linaldi
