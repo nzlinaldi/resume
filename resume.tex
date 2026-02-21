@@ -1,0 +1,102 @@
+% -------------
+% Resume in LaTeX
+% Author: Enzo Linaldi
+% GitHub: https://github.com/nzlinaldi/resume
+% -------------
+
+\documentclass[a4paper, 12pt]{article}
+\usepackage[a4paper,margin=1.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+%-----Configurations---
+
+%Sub sections
+\newcommand{\resumeSubSection}[4]{%
+\noindent
+\textbf{#1} \hfill \textcolor{gray}{#2}\\
+\textit{#3} \hfill \textcolor{gray}{#4}
+}
+
+%Sub sections items
+\newcommand{\resumeItemsSubSection}[1]{%
+\vspace{-9}\small \begin{itemize}\setlength{\itemsep}{-0.3em}
+#1
+\end{itemize}
+}
+
+%Skills sub sections
+\newcommand{\resumeSkillSubsection}[1]{%
+\noindent \textbf{#1}\\[-6pt]
+}
+
+\begin{document}
+
+%-----------Header------------
+
+\begin{center}
+    {\Huge Enzo Linaldi} \\ \vspace{5pt}
+    \small \faPhone* +55 (11) 98341-3231 \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} enzolinaldi@gmail.com \hspace{1pt} $|$ 
+    \hspace{1pt} \faLinkedin \hspace{2pt} \href{https://www.linkedin.com/in/enzo-linaldi-315204389/}{Enzo Linaldi} \hspace{1pt} $|$
+    \hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/nzlinaldi}{GitHub: nzlinaldi}
+    \\ \vspace{-3pt}
+\end{center}
+
+%--------Experience----------
+\section{Experience}
+\resumeSubSection
+{Internship - Administrative Assistant}
+{Aug. 2024 -- Present}
+{Linaldi Comércio de Ferramentas e Serviços LTDA}{Brazil, São Paulo}
+
+\resumeItemsSubSection{
+\item Managed end-to-end customer and supplier relationships and procurement negotiations
+\item Oversaw inventory control of raw materials and finished products
+\item Administered accounts payable/receivable, cash flow and logistics for third party service
+\item Supported product development, website, and production operations
+}
+
+\resumeSubSection{Freelance Web Developer}{Nov. 2025 -- Present}{Self Employed}{Brazil, São Paulo}
+
+\resumeItemsSubSection{
+\item Developed institutional websites for small businesses using HTML, CSS and JavaScript
+\item Implemented responsive layouts and SEO optimization
+\item Managed client requirements and delivery timelines
+}
+
+\section{Education}
+\resumeSubSection
+{Technical High School in Information Technology}
+{Jan. 2023 -- Dec. 2025}
+{Senac Nações Unidas}
+{Brazil, São Paulo}
+
+\resumeItemsSubSection{
+\item Coursework: Computer Support \& Maintenance, Network Operations, Application Development
+\item Hardware diagnostics, OS installation, and technical troubleshooting
+\item Programming logic and software development foundations
+\item Hands-on technical labs and team-based projects
+}
+
+\section{Skills}
+
+\resumeSkillSubsection{Technical Skills}
+
+\resumeItemsSubSection{
+\item \textbf{Web Development:} HTML, CSS, JavaScript, Responsive Design, SEO Basics
+\item \textbf{Programming:} Python (basic), Programming Logic
+\item \textbf{IT \& Systems:} Computer Hardware, OS Installation, Troubleshooting
+\item \textbf{Networking:} TCP/IP Fundamentals, Network Configuration Basics
+\item \textbf{Tools:} Git, GitHub, VS Code
+}
+
+\resumeSkillSubsection{Languages}
+\resumeItemsSubSection{
+\item Portuguese: Native
+\item English: Intermediate
+}
+\end{document}
