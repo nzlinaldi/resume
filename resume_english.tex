@@ -11,19 +11,21 @@
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
 \usepackage{fontawesome5}
 \usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
 %-----Configurations---
 
 %Sub sections
 \newcommand{\resumeSubSection}[4]{%
-\noindent
+\vspace{-1pt}\noindent
 \textbf{#1} \hfill \textcolor{gray}{#2}\\
 \textit{#3} \hfill \textcolor{gray}{#4}
 }
 
 %Sub sections items
 \newcommand{\resumeItemsSubSection}[1]{%
-\vspace{-9}\small \begin{itemize}\setlength{\itemsep}{-0.3em}
+\vspace{-8pt}\small \begin{itemize}\setlength{\itemsep}{-0.3em}
 #1
 \end{itemize}
 }
@@ -34,7 +36,7 @@
 }
 
 \begin{document}
-
+\pagestyle{empty}
 %-----------Header------------
 
 \begin{center}
@@ -60,13 +62,15 @@
 \item Supported product development, website, and production operations
 }
 
-\resumeSubSection{Freelance Web Developer}{Nov. 2025 -- Present}{Self Employed}{Brazil, São Paulo}
+\resumeSubSection {\href{https://vinyacademy.com.br}{Freelance Web Developer}}{Nov. 2025 -- Present}{Self Employed}{Brazil, São Paulo}
 
 \resumeItemsSubSection{
 \item Developed institutional websites for small businesses using HTML, CSS and JavaScript
 \item Implemented responsive layouts and SEO optimization
 \item Managed client requirements and delivery timelines
 }
+
+%--------Education----------
 
 \section{Education}
 \resumeSubSection
@@ -79,8 +83,9 @@
 \item Coursework: Computer Support \& Maintenance, Network Operations, Application Development
 \item Hardware diagnostics, OS installation, and technical troubleshooting
 \item Programming logic and software development foundations
-\item Hands-on technical labs and team-based projects
 }
+
+%--------Skills----------
 
 \section{Skills}
 
@@ -88,10 +93,10 @@
 
 \resumeItemsSubSection{
 \item \textbf{Web Development:} HTML, CSS, JavaScript, Responsive Design, SEO Basics
-\item \textbf{Programming:} Python (basic), Programming Logic
+\item \textbf{Programming:} HTML, CSS and Python (basic)
 \item \textbf{IT \& Systems:} Computer Hardware, OS Installation, Troubleshooting
-\item \textbf{Networking:} TCP/IP Fundamentals, Network Configuration Basics
-\item \textbf{Tools:} Git, GitHub, VS Code
+\item \textbf{Softwares:} Excel, Word, Gestao Pro (Management software), Orca Slicer
+\item \textbf{Tools for programming:} Git, GitHub, VS Code, Overleaf
 }
 
 \resumeSkillSubsection{Languages}
@@ -99,4 +104,30 @@
 \item Portuguese: Native
 \item English: Intermediate
 }
+
+%--------Projects----------
+
+\section{Projects}
+
+\resumeSkillSubsection{\href{https://github.com/nzlinaldi/linaldiWebsite}{Corporate Website - Linaldi}}
+
+\resumeItemsSubSection{
+\item Designed and developed the corporate website for a tools and services company
+\item Implemented responsive multi-page layout and modern UI structure
+\item Organized product and service information for clear business presentation
+\item Applied SEO best practices and performance optimization
+\item Supported company digital presence and online visibility
+}
+
+
+\resumeSkillSubsection{\href{https://github.com/nzlinaldi/control}{Control - Ticket Bot (Discord app)}}
+
+\resumeItemsSubSection{
+\item Developed a Discord bot to automate support ticket creation and management
+\item Implemented reaction-based ticket opening with private channel generation
+\item Designed permission system for users, staff, and administrators
+\item Added ticket reason collection via DM and structured ticket embeds
+\item Implemented ticket closing workflow with category management
+}
+
 \end{document}

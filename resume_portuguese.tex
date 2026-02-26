@@ -1,0 +1,130 @@
+% -------------
+% Resume in LaTeX
+% Author: Enzo Linaldi
+% GitHub: https://github.com/nzlinaldi/resume
+% -------------
+
+\documentclass[a4paper, 12pt]{article}
+\usepackage[a4paper,margin=1.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%-----Configurations---
+
+\newcommand{\resumeSubSection}[4]{%
+\vspace{-1pt}\noindent
+\textbf{#1} \hfill \textcolor{gray}{#2}\\
+\textit{#3} \hfill \textcolor{gray}{#4}
+}
+
+\newcommand{\resumeItemsSubSection}[1]{%
+\vspace{-8pt}\small \begin{itemize}\setlength{\itemsep}{-0.3em}
+#1
+\end{itemize}
+}
+
+\newcommand{\resumeSkillSubsection}[1]{%
+\noindent \textbf{#1}\\[-6pt]
+}
+
+\begin{document}
+\pagestyle{empty}
+
+%-----------Header------------
+
+\begin{center}
+    {\Huge Enzo Linaldi} \\ \vspace{5pt}
+    \small \faPhone* +55 (11) 98341-3231 \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} enzolinaldi@gmail.com \hspace{1pt} $|$ 
+    \hspace{1pt} \faLinkedin \hspace{2pt} \href{https://www.linkedin.com/in/enzo-linaldi-315204389/}{Enzo Linaldi} \hspace{1pt} $|$
+    \hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/nzlinaldi}{GitHub: nzlinaldi}
+    \\ \vspace{-3pt}
+\end{center}
+
+%--------Experiência----------
+\section{Experiência}
+\resumeSubSection
+{Estágio — Assistente Administrativo}
+{Ago. 2024 -- Atual}
+{Linaldi Comércio de Ferramentas e Serviços LTDA}{Brasil, São Paulo}
+
+\resumeItemsSubSection{
+\item Gestão completa do relacionamento com clientes e fornecedores e negociações de compras
+\item Controle de estoque de matérias-primas e produtos acabados
+\item Administração de contas a pagar/receber, fluxo de caixa e logística com terceiros
+\item Suporte ao desenvolvimento de produtos, website e operações de produção
+}
+
+\resumeSubSection {\href{https://vinyacademy.com.br}{Desenvolvedor Web Freelance}}{Nov. 2025 -- Atual}{Autônomo}{Brasil, São Paulo}
+
+\resumeItemsSubSection{
+\item Desenvolvimento de sites institucionais para pequenas empresas com HTML, CSS e JavaScript
+\item Implementação de layouts responsivos e otimização para SEO
+\item Levantamento de requisitos e progresso juntamente ao cliente
+}
+
+%--------Educação----------
+
+\section{Escolaridade}
+\resumeSubSection
+{Ensino Médio Técnico em Tecnologia da Informação}
+{Jan. 2023 -- Dez. 2025}
+{Senac Nações Unidas}
+{Brasil, São Paulo}
+
+\resumeItemsSubSection{
+\item Disciplinas: Suporte e Manutenção de Computadores, Redes, Desenvolvimento de Aplicações
+\item Diagnóstico de hardware, instalação de sistemas operacionais e suporte técnico
+\item Lógica de programação e fundamentos de desenvolvimento de software
+}
+
+%--------Competências----------
+
+\section{Competências}
+
+\resumeSkillSubsection{Competências Técnicas}
+
+\resumeItemsSubSection{
+\item \textbf{Desenvolvimento Web:} HTML, CSS, JavaScript, Design Responsivo, SEO básico
+\item \textbf{Programação:} HTML, CSS e Python (básico)
+\item \textbf{TI e Sistemas:} Hardware, instalação de sistemas operacionais, troubleshooting
+\item \textbf{Softwares:} Excel, Word, Gestão Pro, Orca Slicer
+\item \textbf{Ferramentas:} Git, GitHub, VS Code, Overleaf
+}
+
+\resumeSkillSubsection{Idiomas}
+\resumeItemsSubSection{
+\item Português: Nativo
+\item Inglês: Intermediário
+}
+
+%--------Projetos----------
+
+\section{Projetos}
+
+\resumeSkillSubsection{\href{https://github.com/nzlinaldi/linaldiWebsite}{Website Corporativo — Linaldi}}
+
+\resumeItemsSubSection{
+\item Design e desenvolvimento do website corporativo para empresa de ferramentas e serviços
+\item Implementação de layout responsivo multipágina e estrutura moderna de interface
+\item Organização de informações de produtos e serviços para apresentação empresarial clara
+\item Aplicação de boas práticas de SEO e otimização de desempenho
+\item Suporte à presença digital e visibilidade online da empresa
+}
+
+\resumeSkillSubsection{\href{https://github.com/nzlinaldi/control}{Control — Bot de Tickets (Discord)}}
+
+\resumeItemsSubSection{
+\item Desenvolvimento de bot para Discord para automatizar abertura e gestão de tickets de suporte
+\item Sistema de abertura por reação com criação automática de canais privados
+\item Estrutura de permissões para usuários, equipe e administradores
+\item Coleta de motivo do ticket via DM e embeds estruturados
+\item Fluxo de fechamento com organização automática em categorias
+}
+
+\end{document}
